@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgba(249, 250, 251, 1);
+
+}
+
+.background_img {
+  background-image: url('/src/assets/imgs/9163447ec863cb8710a96bae548b2586d2eed152.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.head {
+    background-image: url("/src/assets/imgs/WhatsApp\ Image\ 2025-07-31\ at\ 5.47.37\ PM.jpeg");
+    background-position: center center;
+    background-size: cover;
+
+}
+.back_img{
+  background-image: url('./assets/imgs/Patterns.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
