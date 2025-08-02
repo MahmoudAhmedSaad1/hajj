@@ -1,18 +1,15 @@
 import React from 'react'
+import Heading from '../../Secondsection/Heading/Heading'
+import Pharagraph from '../../Secondsection/Pharagraph/Pharagraph'
 
-export default function HeaderfourthSection() {
+export default function HeaderfourthSection({heading,pharagraph}) {
   return <>
-    <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-4 container  mx-auto px-4">
-        <div>
-          <h2 className="text-3xl font-bold text-[#003E71] px-5 ms-3 md:ms-0 pt-3 ">
-        Explore our best list <br/>
-5 - stars hotel.
-        </h2>
+    <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-4 ">
+        <div >
+          <Heading heading={heading}/>
         </div>
        <div className='mt-5' >
-         <p className="text-gray-500 text-sm md:text-base max-w-md text-left  mt-7 md:mt-0 px-5 ms-3">
-          We understand that every traveler has different preferences. that’s why our platform’s good.
-        </p>
+         <Pharagraph pharagraph={pharagraph} />
          <div className="w-full max-w-md mx-auto">
       <div className="flex items-center bg-gray-100 rounded-full px-4 py-2 mt-4 shadow-sm">
         <input
