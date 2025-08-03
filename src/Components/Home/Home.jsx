@@ -4,6 +4,7 @@ import FirstSection from "./firstSection/firstSection";
 import Secondsection from "../Secondsection/Secondsection";
 import ThirdSection from "../ThirdSection/ThirdSection";
 import FourthSection from "../FourthSection/FourthSection";
+import Frequently from "../Frequently/Frequently";
 
 export default function home() {
   return (
@@ -13,6 +14,8 @@ export default function home() {
       <Secondsection/>
       <ThirdSection />
       <FourthSection/>
+      <Frequently/>
+      
     </>
   );
 }
