@@ -14,16 +14,18 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Home", path: "/" },
+    { name: "Packedge", path: "/packedge" },
     { name: "Programs", path: "/programs" },
     { name: "Hotels", path: "/hotels" },
     { name: "About Us", path: "/aboutus" },
     { name: "Contact Us", path: "/contactus" },
+    
   ];
 
   return (
 
     <div >
-      <div className="container mx-auto px-4">
+      <div className="container  mx-auto px-4">
        <FirstHead />
         <div className="nav-bar">
           <div className="p-4 md:hidden absolute z-50">

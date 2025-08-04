@@ -8,8 +8,8 @@ import CopyRight from "./CopyRight/CopyRight";
 
 export default function Footer (){
   return (
-    <footer className="bg-[#003366] text-white rounded-t-3xl px-6 pt-10 pb-4">
-      <div className="container mx-auto flex flex-col items-center gap-6 text-center">
+    <footer className="bg-[#003366] text-white rounded-t-3xl w-[90%] px-6 mx-auto pt-10 pb-4">
+      <div className=" mx-auto flex flex-col items-center gap-6 text-center">
        <Logoforfooter/>
 
       

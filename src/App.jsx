@@ -7,6 +7,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Notfound from "./Components/Notfound/Notfound";
 import "./App.css";
+import Packedge from "./Components/Packedge/Packedge";
 let x = createBrowserRouter([
   {
     path: "",
@@ -17,6 +18,7 @@ let x = createBrowserRouter([
       { path: "hotels", element: <Hotels /> },
       { path: "Aboutus", element: <AboutUs /> },
       { path: "contactus", element: <ContactUs /> },
+      { path: "packedge", element: <Packedge /> },
       { path: "*", element: <Notfound /> },
     ],
   },
