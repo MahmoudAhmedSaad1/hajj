@@ -3,15 +3,15 @@ import HeaderSecondSection from "../Secondsection/Header_second_Section/Header_s
 import QuestionandAnswer from "./QuestionandAnswer/QuestionandAnswer";
 
 
-export default function Frequently_packedge() {
+export default function Frequently() {
   return (
     <>
     <HeaderSecondSection
             heading="Frequently asked questions"
-            
+            pharagraph={"everything you need to know about the product and billing."}
           />
     
-          <div className="w-[69%]  px-15 sm:px-6 lg:px-8 py-8">
+          <div className="w-[95%] mx-auto  px-15 sm:px-6 lg:px-8 py-8">
             <QuestionandAnswer
               question={"Is there a free trial available?"}
               answer={

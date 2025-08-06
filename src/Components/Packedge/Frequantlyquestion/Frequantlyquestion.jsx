@@ -6,10 +6,10 @@ export default function Frequantlyquestion() {
   <>
       <HeaderSecondSection
         heading="Frequently asked questions"
-        pharagraph="everything you need to know about the product and billing."
+        
       />
 
-      <div className="w-[95%] mx-auto px-15 sm:px-6 lg:px-8 py-8">
+      <div className="md:w-[67%]  p-3 px-15 sm:px-6 lg:px-8 py-8">
         <QuestionandAnswer
           question={"Is there a free trial available?"}
           answer={
