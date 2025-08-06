@@ -15,8 +15,8 @@ export default function Hotelcard() {
 
             <Rdetailshotelcard />
             <div >
-              <button className=" bg-white border absolute bottom-2 right-2 border-[#003E71] rounded-full p-2 shadow hover:bg-gray-50">
-                <FiArrowRight className="text-[#26508D]" />
+              <button className=" bg-white border absolute bottom-2 right-2 border-[#003E71] text-[#26508D] rounded-full p-2 shadow  hover:bg-[#003E71] hover:text-white duration-300">
+                <FiArrowRight  />
               </button>
             </div>
           </div>

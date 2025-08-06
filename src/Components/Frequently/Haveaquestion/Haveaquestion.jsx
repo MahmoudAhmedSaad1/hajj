@@ -1,8 +1,8 @@
-import React from "react";
+
 import ButtonSection2 from "../../Secondsection/Card/ButtonSection2/ButtonSection2";
 import TextforHavequestion from "../TextforHavequestion/TextforHavequestion";
 import PhotoProfil from "../PhotoProfil/PhotoProfil";
-import Patternimg from "../../patternimg/patternimg";
+
 
 export default function Haveaquestion() {
   return ( <div>
@@ -17,7 +17,7 @@ export default function Haveaquestion() {
         <ButtonSection2 btn={"Get in Touch"}/>
       </div>
     </div>
-    <Patternimg />
+  
     
   </div>
   );
