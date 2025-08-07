@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Countpackedge() {
   return <>
@@ -25,8 +26,10 @@ export default function Countpackedge() {
           </div>
         </div>
       ))}
+<Link to={"/passengerdetails"}>
 <button className="w-full bg-[#043379] hover:bg-[#032655] text-white py-2 rounded-full font-medium">
         Continue
       </button>
+      </Link>
   </>
 }

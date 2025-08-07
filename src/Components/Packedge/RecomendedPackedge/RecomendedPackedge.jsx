@@ -13,7 +13,7 @@ export default function RecomendedPackedge() {
           pharagraph="We understand that every traveler has different preferences. that’s why our platform’s good."
         />
         <Card />
-         <Patternimg/>
+        
       </div>
     </>
   );
