@@ -19,7 +19,7 @@ export default function Countpackedge() {
             <span className="w-fit text-center font-semibold mx-10">0</span>
             <button
               
-              className="w-6 h-6 rounded-lg  flex items-center justify-center text-white bg-[#043379]"
+              className="w-6 h-6 rounded-lg  flex items-center justify-center  text-white bg-[#043379]"
             >
               <i class="fa-solid fa-plus"></i>
             </button>
@@ -27,7 +27,7 @@ export default function Countpackedge() {
         </div>
       ))}
 <Link to={"/passengerdetails"}>
-<button className="w-full bg-[#043379] hover:bg-[#032655] text-white py-2 rounded-full font-medium">
+<button className="w-full bg-[#003E71] hover:bg-[white] hover:text-[#003E71] border border-1 border-[#003E71] duration-300 text-white py-2 mt-10 rounded-full font-medium">
         Continue
       </button>
       </Link>
